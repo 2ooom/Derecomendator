@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Pinterest Derecomendator",
+  "version": "0.6",
+  "content_scripts": [
+	  {
+	    "matches": [
+	      "http://pinterest.com/*",
+	      "https://pinterest.com/*",
+	      "https://www.pinterest.com/*",
+	      "http://www.pinterest.com/*"
+	    ],
+	    "js": ["jquery-2.1.4.min.js", "content.js"]
+	  }
+	]
+}
