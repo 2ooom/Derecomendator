@@ -2,7 +2,7 @@ function removeRecomendations(element) {
 	var p = $(element).parents('.pinWrapper').parent();
 	console.log('removing element:');
 	console.log(p);
-	//p.remove();
+	p.remove();
 }
 
 $('.hidePinInfo').each(function(i, el) {
